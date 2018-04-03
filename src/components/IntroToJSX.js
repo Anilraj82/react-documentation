@@ -15,7 +15,7 @@ export class IntroToJSX extends React.Component {
         let user = this.state.user;
 
         return(
-            <div>
+            <div className="container">
                 <h1> Hello {formatName(user)} </h1>
                 <fieldset>
                     <legend> <h3>When nothing is passed in the function renders </h3> </legend>

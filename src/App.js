@@ -1,8 +1,5 @@
 import React from 'react';
 import { Button } from "react-materialize";
-import {LoginControl} from "./components/LoginControl";
-import {Page} from "./components/Page";
-import {Calculator} from "./components/Calculator";
 import {HelloWorld} from "./components/HelloWorld";
 
 let num = 1;
@@ -54,26 +51,8 @@ export default class App extends React.Component {
             <div>
                 <HelloWorld/>
                 <Button onClick={this.handelClick}> {this.state.isToggleOn ? 'ON' : 'OFF'} </Button>
-                <hr/>
-                <LoginControl/>
-                <hr/>
                 <h2 id="h2">It is {this.state.date.toLocaleTimeString()}</h2>
-                <Buutton whenUserClicks={() => console.log('I am clicked')} />
-                <hr/>
-                <Page />
-
-                <hr/>
-                <Calculator/>
             </div>
         );
     }
-}
-
-
-function Buutton(props){
-    return(
-        <div>
-            <Button onClick={props.whenUserClicks}>Sign Up</Button>
-        </div>
-    )
 }

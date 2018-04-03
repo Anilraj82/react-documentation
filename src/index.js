@@ -10,6 +10,11 @@ import {ComponentsAndProps} from "./components/ComponentsAndProps";
 import {StateAndLifecycle} from "./components/StateAndLifecycle";
 import {HandelingEvents} from "./components/HandlingEvents";
 import {ConditionalRendering} from "./components/ConditionalRendering";
+import {ListAndKeys} from "./components/ListAndKeys";
+import {Forms} from "./components/Forms";
+import {LiftingStateUp} from "./components/LifitngStateUp";
+import {CompositionVsInheritance} from "./components/CompositionVsInheritance";
+
 
 
 ReactDOM.render(
@@ -26,8 +31,10 @@ ReactDOM.render(
                     <Route exact path='/stateandlifecycle' component={StateAndLifecycle}/>
                     <Route exact path='/handelingevents' component={HandelingEvents}/>
                     <Route exact path='/conditionalrendering' component={ConditionalRendering}/>
-
-
+                    <Route exact path='/listandkeys' component={ListAndKeys}/>
+                    <Route exact path='/forms' component={Forms}/>
+                    <Route exact path='/liftingstateup' component={LiftingStateUp}/>
+                    <Route exact path='/compositionvsinheritance' component={CompositionVsInheritance}/>
                 </Switch>
             </div>
         </BrowserRouter>

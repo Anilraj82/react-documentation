@@ -20,7 +20,10 @@ export class Header extends React.Component {
                     <NavItem href='/stateandlifecycle'>StateAndLifecycle</NavItem>
                     <NavItem href='/handelingevents'>HandelingEvents</NavItem>
                     <NavItem href='/conditionalrendering'>ConditionalRendering</NavItem>
-
+                    <NavItem href='/listandkeys'>ListAndKeys</NavItem>
+                    <NavItem href='/forms'>Forms</NavItem>
+                    <NavItem href='/liftingstateup'>LiftingStateUp</NavItem>
+                    <NavItem href='/compositionvsinheritance'>CompositionVsInheritance</NavItem>
                 </Navbar>
             </div>
         )
