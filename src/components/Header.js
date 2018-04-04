@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, NavItem, Dropdown, Icon, Button } from "react-materialize";
+import {Navbar, NavItem } from "react-materialize";
 
 export class Header extends React.Component {
     constructor(props) {
