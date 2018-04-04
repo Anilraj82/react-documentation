@@ -4,6 +4,18 @@ Below you will find some information on how to perform common tasks.<br>
 
 ## Table of Contents
 
+# React project
+Contains the following
+- React
+
+## To get started
+- git clone https://github.com/Anilraj82/tmovie.git
+- cd tmovie
+- npm install
+- npm start
+
+### This repo can be found at https://reactdoc.herokuapp.com/
+
 ### [Heroku](https://www.heroku.com/)
 
 Use the [Heroku Buildpack for Create React App](https://github.com/mars/create-react-app-buildpack).<br>
