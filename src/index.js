@@ -14,6 +14,7 @@ import {ListAndKeys} from "./components/ListAndKeys";
 import {Forms} from "./components/Forms";
 import {LiftingStateUp} from "./components/LifitngStateUp";
 import {CompositionVsInheritance} from "./components/CompositionVsInheritance";
+import {NotFound} from "./components/Notfound";
 
 
 
@@ -35,6 +36,7 @@ ReactDOM.render(
                     <Route exact path='/forms' component={Forms}/>
                     <Route exact path='/liftingstateup' component={LiftingStateUp}/>
                     <Route exact path='/compositionvsinheritance' component={CompositionVsInheritance}/>
+                    <Route component={NotFound}/>
                 </Switch>
             </div>
         </BrowserRouter>
